@@ -1,0 +1,24 @@
+{
+    "name": "padawanstrainer/forms",
+    "description": "Manejo de formularios simplificado",
+    "type": "library",
+    "require": {
+        "phpmailer/phpmailer": "dev-master"
+    },
+    "require-dev": {
+        "phpmailer/phpmailer": "dev-master"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Padawanstrainer\\Forms\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "German Rodriguez",
+            "email": "padawanstrainer@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
